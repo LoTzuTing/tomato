@@ -1,0 +1,34 @@
+ .lang-sel span {
+            color: blue;
+            text-decoration: underline;
+            cursor: pointer;
+            margin-right: 3px;
+        }
+ 
+        .img-btn {
+            margin: 3px;
+            display: inline-block;
+            width: 500px;
+            height: 400px;
+            box-shadow: 2px 2px 5px #ccc;
+        }
+ 
+            .img-btn:active {
+                box-shadow: none;
+            }
+ 
+        .tw span.tw, .cn span.cn, .en span.en {
+            color: red;
+        }
+ 
+        .tw .img-btn {
+            background: url(../images/tomato.jpg);
+        }
+ 
+        .cn .img-btn {
+            background: url(../images/tomato2.jpg);
+        }
+ 
+        .en .img-btn {
+            background: url(../images/tomato3.jpg);
+        }
