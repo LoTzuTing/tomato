@@ -1,3 +1,7 @@
+
+$(document).ready(function(){
+
+
 window.onload = function(){
     var oBtnStart = document.getElementById('start');
     var oTextDuration = document.getElementById('duration');
@@ -16,10 +20,15 @@ window.onload = function(){
         defaultDuration = parseInt(oTextDuration.value)*60*1000;
         defaultBreak = parseInt(oTextBreak.value)*60*1000;
         oCountDownArea.innerHTML = "time: "+beautyTime(defaultDuration)+" <br> break time: "+beautyTime(defaultBreak);
-    }
+    	
+	    $('#counter').countdown({
+			timestamp : (new Date()).getTime() + defaultDuration
+		});
+
+    // }
     
  
-    oBtnStart.onclick = function(){
+    // oBtnStart.onclick = function(){
         clearInterval(timer);
         now = Date.now();
         oCountDownArea.innerHTML = "time: "+beautyTime(defaultDuration)+" <br> break time: "+beautyTime(defaultBreak);
@@ -42,8 +51,15 @@ window.onload = function(){
                 oCountDownArea.innerHTML = "time: "+beautyTime(timeDelay)+" <br> break time: "+beautyTime(defaultBreak);
                 
             }else{
-
+            	var temp = 0
+            	if(temp == 0){
+            		$('#counter').countdown({
+						timestamp : (new Date()).getTime() + btimeDelay
+					});
+					temp = 1;
+            	}
                 oCountDownArea.innerHTML = "time: "+beautyTime(0)+" <br> break time: "+beautyTime(btimeDelay);
+                  
             }
             
         },500);
@@ -56,17 +72,28 @@ window.onload = function(){
         return hour+":"+min+":"+sec;
     }
  
+
+
+	/* ---- Countdown timer ---- */
+
+	// $('#counter').countdown({
+	// 	timestamp : (new Date()).getTime() + defaultDuration
+	// });
+
+
+	/* ---- Animations ---- */
+
+	$('#links a').hover(
+		function(){ $(this).animate({ left: 3 }, 'fast'); },
+		function(){ $(this).animate({ left: 0 }, 'fast'); }
+	);
+
+	$('footer a').hover(
+		function(){ $(this).animate({ top: 3 }, 'fast'); },
+		function(){ $(this).animate({ top: 0 }, 'fast'); }
+	);
+
+
 }
 
-// function change_pic(){
-//     var button = document.getElementById("button");
-//     var start = document.getElementById("start");
-//     button.onclick = function(){
-//         if(start.getAttribute("src",2) == "images/tomato.jpg"){
-//             start.setAttribute("src","images/tomato2.jpg");
-//         }else{
-//             start.setAttribute("src","images/tomato.jpg");
-//         }
-//     }
-// }
-//change_pic();
+});
