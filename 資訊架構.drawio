@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-11-25T09:47:14.724Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="lrYwRlnGwSjX_M96g0tH" version="20.4.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-28T06:22:46.001Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="y-hJDsA5IDrnxj9fFHqV" version="20.4.0" type="github">
   <diagram id="6a731a19-8d31-9384-78a2-239565b7b9f0" name="Page-1">
-    <mxGraphModel dx="3231" dy="1122" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="0">
+    <mxGraphModel dx="2193" dy="531" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -36,11 +36,11 @@
         </mxCell>
         <mxCell id="rLNtf5SOXgWj6pJwcrDs-1810" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1756" target="rLNtf5SOXgWj6pJwcrDs-1811">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-27" y="269.5" as="targetPoint" />
+            <mxPoint x="-387" y="650" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="1756" value="二開" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeColor=none;strokeWidth=3;fillColor=#f08e81;fontFamily=Helvetica;fontSize=14;fontColor=#FFFFFF;align=center;spacing=5;fontStyle=0;arcSize=7;perimeterSpacing=2;" parent="1" vertex="1">
-          <mxGeometry x="51" y="239.5" width="150" height="60" as="geometry" />
+          <mxGeometry x="51" y="479" width="150" height="60" as="geometry" />
         </mxCell>
         <mxCell id="1757" value="" style="edgeStyle=none;rounded=0;jumpStyle=none;html=1;shadow=0;labelBackgroundColor=none;startArrow=none;startFill=0;endArrow=classic;endFill=1;jettySize=auto;orthogonalLoop=1;strokeColor=#1699D3;strokeWidth=3;fontFamily=Helvetica;fontSize=14;fontColor=#FFFFFF;spacing=5;" parent="1" source="1760" target="1763" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -164,7 +164,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="rLNtf5SOXgWj6pJwcrDs-1798" value="操作手冊SOP&lt;br&gt;資訊管理辦法" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeColor=none;strokeWidth=3;fillColor=#f08e81;fontFamily=Helvetica;fontSize=14;fontColor=#FFFFFF;align=center;spacing=5;fontStyle=0;arcSize=7;perimeterSpacing=2;" vertex="1" parent="1">
-          <mxGeometry x="51" y="499" width="150" height="60" as="geometry" />
+          <mxGeometry x="51" y="260" width="150" height="60" as="geometry" />
         </mxCell>
         <mxCell id="rLNtf5SOXgWj6pJwcrDs-1799" value="" style="edgeStyle=none;rounded=1;jumpStyle=none;html=1;shadow=0;labelBackgroundColor=none;startArrow=none;startFill=0;jettySize=auto;orthogonalLoop=1;strokeColor=#E85642;strokeWidth=3;fontFamily=Helvetica;fontSize=14;fontColor=#FFFFFF;spacing=5;fontStyle=1;fillColor=#b0e3e6;" edge="1" parent="1" source="1753" target="rLNtf5SOXgWj6pJwcrDs-1798">
           <mxGeometry relative="1" as="geometry">
@@ -176,13 +176,13 @@
           <mxGeometry x="-205" y="364.5" width="110" height="60" as="geometry" />
         </mxCell>
         <mxCell id="rLNtf5SOXgWj6pJwcrDs-1802" value="系統操作" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeColor=none;strokeWidth=3;fillColor=#f08e81;fontFamily=Helvetica;fontSize=14;fontColor=#FFFFFF;align=center;spacing=5;fontStyle=0;arcSize=7;perimeterSpacing=2;" vertex="1" parent="1">
-          <mxGeometry x="-120" y="499" width="105" height="60" as="geometry" />
+          <mxGeometry x="-80" y="180.5" width="105" height="60" as="geometry" />
         </mxCell>
         <mxCell id="rLNtf5SOXgWj6pJwcrDs-1805" value="權限異動" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeColor=none;strokeWidth=3;fillColor=#f08e81;fontFamily=Helvetica;fontSize=14;fontColor=#FFFFFF;align=center;spacing=5;fontStyle=0;arcSize=7;perimeterSpacing=2;" vertex="1" parent="1">
-          <mxGeometry x="-79" y="579" width="105" height="60" as="geometry" />
+          <mxGeometry x="-40" y="100" width="105" height="60" as="geometry" />
         </mxCell>
         <mxCell id="rLNtf5SOXgWj6pJwcrDs-1806" value="流程作業" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeColor=none;strokeWidth=3;fillColor=#f08e81;fontFamily=Helvetica;fontSize=14;fontColor=#FFFFFF;align=center;spacing=5;fontStyle=0;arcSize=7;perimeterSpacing=2;" vertex="1" parent="1">
-          <mxGeometry x="-39" y="659" width="105" height="60" as="geometry" />
+          <mxGeometry x="-119" y="260" width="105" height="60" as="geometry" />
         </mxCell>
         <mxCell id="rLNtf5SOXgWj6pJwcrDs-1807" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="rLNtf5SOXgWj6pJwcrDs-1798" target="rLNtf5SOXgWj6pJwcrDs-1805">
           <mxGeometry relative="1" as="geometry">
@@ -197,24 +197,24 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="rLNtf5SOXgWj6pJwcrDs-1811" value="ERP" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeColor=none;strokeWidth=3;fillColor=#f08e81;fontFamily=Helvetica;fontSize=14;fontColor=#FFFFFF;align=center;spacing=5;fontStyle=0;arcSize=7;perimeterSpacing=2;" vertex="1" parent="1">
-          <mxGeometry x="-120" y="239.5" width="105" height="60" as="geometry" />
+          <mxGeometry x="-40" y="641.5" width="105" height="60" as="geometry" />
         </mxCell>
         <mxCell id="rLNtf5SOXgWj6pJwcrDs-1812" value="Agentflow" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeColor=none;strokeWidth=3;fillColor=#f08e81;fontFamily=Helvetica;fontSize=14;fontColor=#FFFFFF;align=center;spacing=5;fontStyle=0;arcSize=7;perimeterSpacing=2;" vertex="1" parent="1">
-          <mxGeometry x="-79" y="158.5" width="105" height="60" as="geometry" />
+          <mxGeometry x="-80" y="560.5" width="105" height="60" as="geometry" />
         </mxCell>
         <mxCell id="rLNtf5SOXgWj6pJwcrDs-1813" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1756" target="rLNtf5SOXgWj6pJwcrDs-1812">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="59" y="279.5" as="sourcePoint" />
-            <mxPoint x="-3" y="279.5" as="targetPoint" />
+            <mxPoint x="-301" y="660" as="sourcePoint" />
+            <mxPoint x="-363" y="660" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="rLNtf5SOXgWj6pJwcrDs-1814" value="Meri Cloud" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeColor=none;strokeWidth=3;fillColor=#f08e81;fontFamily=Helvetica;fontSize=14;fontColor=#FFFFFF;align=center;spacing=5;fontStyle=0;arcSize=7;perimeterSpacing=2;" vertex="1" parent="1">
-          <mxGeometry x="-39" y="80" width="105" height="60" as="geometry" />
+          <mxGeometry x="-119" y="479" width="105" height="60" as="geometry" />
         </mxCell>
         <mxCell id="rLNtf5SOXgWj6pJwcrDs-1815" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1756" target="rLNtf5SOXgWj6pJwcrDs-1814">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="59" y="279.5" as="sourcePoint" />
-            <mxPoint x="-3" y="279.5" as="targetPoint" />
+            <mxPoint x="-301" y="660" as="sourcePoint" />
+            <mxPoint x="-363" y="660" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="rLNtf5SOXgWj6pJwcrDs-1816" value="資產記錄&lt;br&gt;(PC/NB/Monitor/USB...)" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeColor=none;strokeWidth=3;fillColor=#f5af58;fontFamily=Helvetica;fontSize=14;fontColor=#FFFFFF;align=center;spacing=5;arcSize=7;perimeterSpacing=2;" vertex="1" parent="1">
